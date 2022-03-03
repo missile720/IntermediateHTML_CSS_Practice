@@ -1,0 +1,41 @@
+.nav{
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border: 2px solid;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40px;
+    
+}
+
+.red{
+    background-color: red;
+    border: 2px solid;
+    width: 20%;
+}
+
+.blue{
+    background-color: blue;
+    border: 2px solid;
+    width: 50%;
+}
+
+.yellow{
+    background-color: yellow;
+    border: 2px solid;
+    width: 80%;
+}
